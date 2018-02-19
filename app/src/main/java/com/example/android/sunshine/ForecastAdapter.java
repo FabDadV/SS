@@ -254,7 +254,7 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
      *
      * @param newCursor the new cursor to use as ForecastAdapter's data source
      */
-    public void swapCursor(Cursor newCursor) {
+    public  void swapCursor(Cursor newCursor) {
         mCursor = newCursor;
         notifyDataSetChanged();
     }
